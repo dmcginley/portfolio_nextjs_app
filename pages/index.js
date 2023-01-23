@@ -62,7 +62,7 @@ export default function Home() {
                 </div> */}
           </nav>
           {/* hero */}
-          <section className="p-8 md:px-12 md:py-16 pb-4 md:pb-20 bg-gray-200">
+          <section className="p-8 md:px-12 md:py-16 pb-4 md:pb-24 bg-gray-200">
             <div className="hero flex justify-center lg:justify-start lg:px-24 items-end px-3">
               <img
                 className="rounded-3xl h-36 w-36 md:h-44  md:w-44"
@@ -143,87 +143,192 @@ export default function Home() {
           </div>
 
           <div className="px-8 pb-2">
-            <section className="text-3xl px-6 pt-8 md:pt-12 pb-4 font-semibold text-darkBlue md:items-center text-center md:text-left">
+            <section className="text-3xl px-6 py-8 md:pt-16 font-semibold text-darkBlue md:items-center text-center md:text-left">
               <h3>Projects</h3>
             </section>
             {/* cards */}
-            <section className="md:grid md:grid-cols-2 xl:grid-cols-4 ">
-              <a href="#" className="card p-4 mb-8 group">
-                <div className=" relative rounded mx-auto max-w-md md:max-w-none flex flex-col lg:flex-row">
-                  <img
-                    src="/static/images/project_1.png"
-                    className="flex-1"
-                    alt=""
-                  />
-                  <div className="absolute flex flex-col justify-end h-full w-full">
-                    <div className="bg-gradient-to-t from-slate-800 group-hover:bg-slate-900 p-6 transition-all">
-                      <h3 className="text-2xl pb-1 text-gray-50">
-                        Yoga website - P1
-                      </h3>
-                      <p className="text-sm text-gray-300">
-                        Donnchadh • <time>29 Nov 2022</time>
-                      </p>
-                      {/* <p className="text-gray-50">
+            <section className="flex flex-col md:grid md:grid-cols-2 xl:grid-cols-3 gap-10 xl:gap-14 md:px-6">
+              <div className="card">
+                <a href="#" className="group bg-slate-700">
+                  <div className=" relative mx-auto max-w-md md:max-w-none flex flex-col lg:flex-row">
+                    <img
+                      src="/static/images/project_1.png"
+                      className="flex-1"
+                      alt=""
+                    />
+                    <div className="absolute flex flex-col justify-end h-full w-full">
+                      <div className="bg-gradient-to-t from-slate-800 group-hover:bg-slate-900 p-6 transition-all">
+                        <h3 className="text-2xl pb-1 text-gray-50">
+                          Yoga website - P1
+                        </h3>
+                        <p className="text-sm text-gray-300">
+                          Donnchadh • <time>29 Nov 2022</time>
+                        </p>
+                        {/* <p className="text-gray-50">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Excepturi obcaecati facere quod!
                       </p> */}
 
-                      <div className="mt-4 flex gap-2">
-                        <span className="inline-flex items-center gap-1 rounded-full border-solid border-blue-300 border px-2 py-1 text-xs font-semibold text-blue-300">
-                          HTML5
-                        </span>
-                        <span className="inline-flex items-center gap-1 rounded-full border-solid border-indigo-300 border px-2 py-1 text-xs font-semibold text-indigo-300">
-                          CSS3
-                        </span>
-                        <span className="inline-flex items-center gap-1 rounded-full border-solid border-orange-300 border px-2 py-1 text-xs font-semibold text-orange-300">
-                          jQueiry
-                        </span>
+                        <div className="mt-4 flex gap-2">
+                          <span className="inline-flex items-center gap-1 rounded-full border-solid border-blue-300 border px-2 py-1 text-xs font-semibold text-blue-300">
+                            HTML5
+                          </span>
+                          <span className="inline-flex items-center gap-1 rounded-full border-solid border-indigo-300 border px-2 py-1 text-xs font-semibold text-indigo-300">
+                            CSS3
+                          </span>
+                          <span className="inline-flex items-center gap-1 rounded-full border-solid border-orange-300 border px-2 py-1 text-xs font-semibold text-orange-300">
+                            jQueiry
+                          </span>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-              </a>
-
-              <a href="#" className="card p-4 mb-8 group">
-                <div className=" relative rounded mx-auto max-w-md md:max-w-none flex flex-col lg:flex-row">
-                  <img
-                    src="/static/images/project_2.png"
-                    className="flex-1"
-                    alt=""
-                  />
-                  <div className="absolute flex flex-col justify-end h-full w-full">
-                    <div className="bg-gradient-to-t from-slate-800 group-hover:bg-slate-900 p-6 transition-all">
-                      <h3 className="text-2xl pb-1 text-gray-50">
-                        Chartjs website - P2
-                      </h3>
-                      <p className="text-sm text-gray-300">
-                        Donnchadh • <time>29 Nov 2022</time>
-                      </p>
-                      {/* <p className="text-gray-50">
+                </a>
+              </div>
+              <div className="card">
+                <a href="#" className="group bg-slate-700">
+                  <div className=" relative rounded mx-auto max-w-md md:max-w-none flex flex-col lg:flex-row">
+                    <img
+                      src="/static/images/project_2.png"
+                      className="flex-1"
+                      alt=""
+                    />
+                    <div className="absolute flex flex-col justify-end h-full w-full">
+                      <div className="bg-gradient-to-t from-slate-800 group-hover:bg-slate-900 p-6 transition-all">
+                        <h3 className="text-2xl pb-1 text-gray-50">
+                          Chartjs website - P2
+                        </h3>
+                        <p className="text-sm text-gray-300">
+                          Donnchadh • <time>29 Nov 2022</time>
+                        </p>
+                        {/* <p className="text-gray-50">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Excepturi obcaecati facere quod!
                       </p> */}
 
-                      <div className="mt-4 flex gap-2">
-                        <span className="inline-flex items-center gap-1 rounded-full border-solid border-blue-300 border px-2 py-1 text-xs font-semibold text-blue-300">
-                          HTML, CSS
-                        </span>
-                        <span className="inline-flex items-center gap-1 rounded-full border-solid border-yellow-300 border px-2 py-1 text-xs font-semibold text-yellow-300">
-                          JavaScript
-                        </span>
-                        <span className="inline-flex items-center gap-1 rounded-full border-solid border-red-300 border px-2 py-1 text-xs font-semibold text-red-300">
-                          Chart.js
-                        </span>
+                        <div className="mt-4 flex gap-2">
+                          <span className="inline-flex items-center gap-1 rounded-full border-solid border-blue-300 border px-2 py-1 text-xs font-semibold text-blue-300">
+                            HTML, CSS
+                          </span>
+                          <span className="inline-flex items-center gap-1 rounded-full border-solid border-yellow-300 border px-2 py-1 text-xs font-semibold text-yellow-300">
+                            JavaScript
+                          </span>
+                          <span className="inline-flex items-center gap-1 rounded-full border-solid border-red-300 border px-2 py-1 text-xs font-semibold text-red-300">
+                            Chart.js
+                          </span>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-              </a>
+                </a>
+              </div>
+              <div className="card">
+                <a href="#" className="group bg-slate-700">
+                  <div className=" relative rounded mx-auto max-w-md md:max-w-none flex flex-col lg:flex-row">
+                    <img
+                      src="/static/images/project_2.png"
+                      className="flex-1"
+                      alt=""
+                    />
+                    <div className="absolute flex flex-col justify-end h-full w-full">
+                      <div className="bg-gradient-to-t from-slate-800 group-hover:bg-slate-900 p-6 transition-all">
+                        <h3 className="text-2xl pb-1 text-gray-50">
+                          Battleship Game - P3
+                        </h3>
+                        <p className="text-sm text-gray-300">
+                          Donnchadh • <time>29 Nov 2022</time>
+                        </p>
+                        {/* <p className="text-gray-50">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Excepturi obcaecati facere quod!
+                      </p> */}
+
+                        <div className="mt-4 flex gap-2">
+                          <span className="inline-flex items-center gap-1 rounded-full border-solid border-green-300 border px-2 py-1 text-xs font-semibold text-green-300">
+                            Python
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div className="card">
+                <a href="#" className="group bg-slate-700">
+                  <div className=" relative rounded mx-auto max-w-md md:max-w-none flex flex-col lg:flex-row">
+                    <img
+                      src="/static/images/project_2.png"
+                      className="flex-1"
+                      alt=""
+                    />
+                    <div className="absolute flex flex-col justify-end h-full w-full">
+                      <div className="bg-gradient-to-t from-slate-800 group-hover:bg-slate-900 p-6 transition-all">
+                        <h3 className="text-2xl pb-1 text-gray-50">
+                          Blog - P4
+                        </h3>
+                        <p className="text-sm text-gray-300">
+                          Donnchadh • <time>29 Nov 2022</time>
+                        </p>
+                        {/* <p className="text-gray-50">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Excepturi obcaecati facere quod!
+                      </p> */}
+
+                        <div className="mt-4 flex gap-2">
+                          <span className="inline-flex items-center gap-1 rounded-full border-solid border-purple-300 border px-2 py-1 text-xs font-semibold text-purple-300">
+                            Django
+                          </span>
+                          <span className="inline-flex items-center gap-1 rounded-full border-solid border-green-300 border px-2 py-1 text-xs font-semibold text-green-300">
+                            Python
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div className="card">
+                <a href="#" className="group bg-slate-700">
+                  <div className=" relative rounded mx-auto max-w-md md:max-w-none flex flex-col lg:flex-row">
+                    <img
+                      src="/static/images/project_5.png"
+                      className="flex-1"
+                      alt=""
+                    />
+                    <div className="absolute flex flex-col justify-end h-full w-full">
+                      <div className="bg-gradient-to-t from-slate-800 group-hover:bg-slate-900 p-6 transition-all">
+                        <h3 className="text-2xl pb-1 text-gray-50">
+                          eCommerce store - P5
+                        </h3>
+                        <p className="text-sm text-gray-300">
+                          Donnchadh • <time>29 Nov 2022</time>
+                        </p>
+                        {/* <p className="text-gray-50">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Excepturi obcaecati facere quod!
+                      </p> */}
+
+                        <div className="mt-4 flex gap-2">
+                          <span className="inline-flex items-center gap-1 rounded-full border-solid border-purple-300 border px-2 py-1 text-xs font-semibold text-purple-300">
+                            Django
+                          </span>
+                          <span className="inline-flex items-center gap-1 rounded-full border-solid border-green-300 border px-2 py-1 text-xs font-semibold text-green-300">
+                            Python
+                          </span>
+                          <span className="inline-flex items-center gap-1 rounded-full border-solid border-yellow-300 border px-2 py-1 text-xs font-semibold text-yellow-300">
+                            JavaScript
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
             </section>
           </div>
 
-          <section className="card-section  mr-auto md:flex md:justify-center p-20 gap-6">
-            <div className="block rounded shadow-lg bg-white md:max-w-sm text-center mb-6">
+          <section className="card-section  mr-auto md:flex md:justify-center px-10 pt-24 gap-6">
+            <div className="block rounded-lg shadow-lg bg-white md:max-w-sm text-center mb-6 flex-1">
               <div className="bg-slate-400 p-3 rounded-t">
                 <SiDjango size={50} />
               </div>
@@ -231,9 +336,6 @@ export default function Home() {
                 Lorem ipsum dolor
               </h3>
               <div className="p-6">
-                <h5 className="text-gray-900 text-xl font-medium mb-2">
-                  Special title treatment
-                </h5>
                 <p className="text-gray-700 text-base mb-4">
                   With supporting text below as a natural lead-in to additional
                   content.
@@ -249,7 +351,7 @@ export default function Home() {
                 2 days ago
               </div>
             </div>
-            <div className="block rounded-lg shadow-lg bg-white md:max-w-sm text-center mb-6">
+            <div className="block rounded-lg shadow-lg bg-white md:max-w-sm text-center mb-6 flex-1">
               <div className="bg-orange-400 p-3 rounded-t">
                 <SiPython size={50} />
               </div>
@@ -257,9 +359,6 @@ export default function Home() {
                 Lorem ipsum dolor
               </h3>
               <div className="p-6">
-                <h5 className="text-gray-900 text-xl font-medium mb-2">
-                  Special title treatment
-                </h5>
                 <p className="text-gray-700 text-base mb-4">
                   With supporting text below as a natural lead-in to additional
                   content.
@@ -275,20 +374,16 @@ export default function Home() {
                 2 days ago
               </div>
             </div>
-            <div className="block rounded-lg shadow-lg bg-white md:max-w-sm text-center mb-6">
+            <div className="block rounded-lg shadow-lg bg-white md:max-w-sm text-center mb-6 flex-1">
               <div className="bg-violet-400 p-3 rounded-t">
                 <SiJavascript size={50} />
               </div>
-              <h3 className=" text-xl py-3 px-6 border-gray-300">
+              <h3 className=" text-lg py-3 px-4 pb-0 border-gray-300">
                 Lorem ipsum dolor
               </h3>
-              <div className="p-6">
-                <h5 className="text-gray-900 text-xl font-medium mb-2">
-                  Special title treatment
-                </h5>
+              <div className="p-4">
                 <p className="text-gray-700 text-base mb-4">
-                  With supporting text below as a natural lead-in to additional
-                  content.
+                  With supporting text bedf additional content.
                 </p>
                 <button
                   type="button"
