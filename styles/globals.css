@@ -5,33 +5,27 @@
 
 .main-grid {
   display: grid;
-  grid-template-columns: 1fr minmax(100px, 200ch) 1fr;
+  grid-template-columns: 1fr minmax(100px, 230ch) 1fr;
   grid-template-rows: 1fr, 1fr;
+  /* background-color: aqua; */
+  /* padding: 3em; */
+
 }
 
-card-grid,
-main * {
+.main-grid * {
   grid-column: 2;
+
 }
 
 .card {
   grid-column: auto;
 }
 
-/* .hero {
-  height: 400px;
-} */
+
 .avatar {
   height: 200px;
   border: 2px solid rebeccapurple;
 }
-
-/* .hero {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-} */
 
 * {
   box-sizing: border-box;
