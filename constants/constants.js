@@ -11,7 +11,7 @@ export const projects = [
     id: 1,
   },
   {
-    title: "Project 2 - Chartjs website",
+    title: "Project 2 - Chartjs",
     description: "The description of project",
     author: "Donnchadh",
     date: "29 Nov 2022",
