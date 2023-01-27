@@ -5,10 +5,10 @@ import Image from "next/image";
 import { projects } from ".././constants/constants";
 
 const Projects = () => (
-  <section className="px-4 md:p-8">
+  <section className="px-4 pt-10 md:p-8 lg:px-20">
     <div
       id="project"
-      className="text-4xl lg:text-6xl px-6 py-8 md:pt-16 font-semibold text-darkBlue md:items-center text-center md:text-left"
+      className="text-4xl lg:text-6xl px-6 py-8 md:pt-8 md:pb-10 lg:pt-20 lg:pb-16 font-semibold text-darkBlue md:items-center text-center md:text-left"
     >
       <h3>My Projects</h3>
     </div>
@@ -39,9 +39,9 @@ const Projects = () => (
                   height="600"
                   // fill
                 />
-                <div className=" flex flex-col justify-end h-full w-full">
-                  <div className=" p-6 transition-all rounded-b-md">
-                    <h3 className="text-2xl pb-1 text-gray-900 font-semibold">
+                <div className="flex flex-col justify-end">
+                  <div className="p-6 transition-all rounded-b-md ">
+                    <h3 className="text-2xl pb-1 text-gray-900 font-semibold md:w-64 lg:w-full whitespace-nowrap text-ellipsis overflow-hidden">
                       {title}
                     </h3>
                     <p className="text-sm text-gray-600">

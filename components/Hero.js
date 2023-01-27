@@ -1,13 +1,7 @@
 import React from "react";
 
 import { RiLinkedinFill } from "react-icons/ri";
-import {
-  SiDjango,
-  SiPython,
-  SiJavascript,
-  SiGithub,
-  SiTwitter,
-} from "react-icons/si";
+import { SiGithub, SiTwitter } from "react-icons/si";
 const social_icons = { color: "rgb(40, 98, 170)", fontSize: "2.6rem" };
 
 const Hero = () => {
