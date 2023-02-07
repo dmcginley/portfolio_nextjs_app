@@ -14,7 +14,10 @@ const Contact = () => (
       id="contact"
       className="text-4xl lg:text-6xl px-6 py-8 md:pt-8 md:pb-10 lg:pt-20 lg:pb-16 font-semibold text-darkBlue md:items-center text-center md:text-left"
     >
-      <h3>Contact</h3>
+      <h3>
+        Contact
+        <span className="text-blue-500">/</span>
+      </h3>
     </div>
     <div>
       <p>

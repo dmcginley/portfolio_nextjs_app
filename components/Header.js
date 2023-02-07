@@ -10,7 +10,7 @@ const Header = () => {
               <li className="mr-3">
                 <a
                   className="inline-block rounded py-1.5 px-4 bg-darkBlue text-white"
-                  href="#"
+                  href="/"
                 >
                   Home
                 </a>
@@ -25,7 +25,7 @@ const Header = () => {
               </li>
               <li className="mr-3">
                 <a
-                  className="inline-block rounded hover:border-gray-200 text-darkBlue hover:bg-gray-200 py-1.5 px-4 "
+                  className="inline-block rounded hover:border-gray-200 text-darkBlue hover:bg-gray-300 py-1.5 px-4 "
                   href="#contact"
                 >
                   Contact
@@ -33,7 +33,7 @@ const Header = () => {
               </li>
               <li className="mr-3">
                 <a
-                  className="inline-block rounded hover:border-gray-200 text-darkBlue hover:bg-gray-200 py-1.5 px-4"
+                  className="inline-block rounded hover:border-gray-200 text-darkBlue hover:bg-gray-300 py-1.5 px-4"
                   href="#"
                 >
                   Resume

@@ -54,4 +54,15 @@ export const projects = [
     source: "https://github.com/",
     id: 5,
   },
+  {
+    title: "Project 6 - Old style Blog",
+    description: "The description of project",
+    author: "Donnchadh",
+    date: "3 Feb 2023",
+    image: "/static/images/small/project_6_sm.png",
+    tags: ["Django", "Python", "jQuery"],
+    website: "https://www.google.com/",
+    source: "https://github.com/",
+    id: 5,
+  },
 ];

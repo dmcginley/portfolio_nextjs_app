@@ -20,12 +20,18 @@ import {
 import { RiLinkedinFill } from "react-icons/ri";
 
 // const inter = Inter({ subsets: ["latin"] });
+
+// const roboto = Roboto({
+//   subset: ["latin"],
+//   weight: ["400", "300"],
+// });
+
 const social_icons = { color: "rgb(40, 98, 170)", fontSize: "2.6rem" };
 
 export default function Home() {
   return (
     <Layout className="">
-      <section className="main-grid">
+      <section className="main-grid ui-sans-serif">
         <Hero />
         <Projects />
         <Skills />

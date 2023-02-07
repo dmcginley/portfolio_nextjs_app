@@ -10,7 +10,10 @@ const Projects = () => (
       id="project"
       className="text-4xl lg:text-6xl px-6 py-8 md:pt-8 md:pb-10 lg:pt-20 lg:pb-16 font-semibold text-darkBlue md:items-center text-center md:text-left"
     >
-      <h3>My Projects</h3>
+      <h3>
+        My<span className="text-blue-500">_</span>Projects
+        <span className="text-blue-500">/</span>
+      </h3>
     </div>
     <div className="flex flex-col justify-center md:grid md:grid-cols-2 xl:grid-cols-3 gap-10 xl:gap-14 md:px-6">
       {projects.map(
