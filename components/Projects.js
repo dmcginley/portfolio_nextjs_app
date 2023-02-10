@@ -43,7 +43,6 @@ const Projects = () => (
                   <div className="absolute flex gap-2 md:gap-6 2xl:gap-12">
                     <a
                       href={website}
-                      // className=" invisible group-hover:visible group-hover:transition-all  text-slate-900 hover:bg-slate-100/50 text-xl rounded-full border-solid border-slate-800 border-2 py-1 px-4 m-1 font-semibold"
                       className=" invisible group-hover:visible group-hover:transition-all  text-slate-900 hover:bg-slate-700 hover:text-slate-50 hover:border-slate-700 text-xl rounded-full border-solid border-slate-800 border-2 py-1 px-4 m-1 font-semibold"
                       target="_blank"
                     >
@@ -59,7 +58,7 @@ const Projects = () => (
                   </div>
                 </div>
                 <div className="flex flex-col justify-end">
-                  <div className="p-6 transition-all rounded-b-md ">
+                  <div className="p-6 rounded-b-md group-hover:opacity-50 transition-all">
                     <h3 className="text-2xl pb-1 text-gray-900 font-semibold md:w-64 lg:w-full whitespace-nowrap text-ellipsis overflow-hidden">
                       {title}
                     </h3>

@@ -1,7 +1,7 @@
 import React from "react";
 
 import { RiLinkedinFill } from "react-icons/ri";
-import { SiGithub, SiTwitter } from "react-icons/si";
+import { SiGithub, SiFigma } from "react-icons/si";
 const social_icons = { color: "475569", fontSize: "2.6rem" };
 
 const Hero = () => {
@@ -49,11 +49,11 @@ const Hero = () => {
               </a>
               <a
                 className="p-2"
-                href=""
+                href="https://www.figma.com/files/recent?fuid=697723773435929263"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <SiTwitter
+                <SiFigma
                   style={social_icons}
                   className="hover:fill-darkBlueHover transition-all"
                 />
@@ -72,6 +72,7 @@ const Hero = () => {
         >
           <SiGithub
             style={social_icons}
+            lable="GiitHub"
             className="hover:fill-darkBlueHover transition-all"
           />
         </a>
@@ -86,8 +87,13 @@ const Hero = () => {
             className="hover:fill-darkBlueHover transition-all"
           />
         </a>
-        <a className="p-2" href="" target="_blank" rel="noopener noreferrer">
-          <SiTwitter
+        <a
+          className="p-2"
+          href="https://www.figma.com/files/recent?fuid=697723773435929263"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <SiFigma
             style={social_icons}
             className="hover:fill-darkBlueHover transition-all"
           />
