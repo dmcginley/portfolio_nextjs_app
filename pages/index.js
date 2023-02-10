@@ -35,7 +35,7 @@ export default function Home() {
         <Hero />
         <Projects />
         <Skills />
-        <Contact />
+        {/* <Contact /> */}
       </section>
     </Layout>
   );

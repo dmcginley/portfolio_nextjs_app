@@ -2,11 +2,11 @@ import React from "react";
 
 import { RiLinkedinFill } from "react-icons/ri";
 import { SiGithub, SiTwitter } from "react-icons/si";
-const social_icons = { color: "rgb(40, 98, 170)", fontSize: "2.6rem" };
+const social_icons = { color: "475569", fontSize: "2.6rem" };
 
 const Hero = () => {
   return (
-    <section>
+    <section className="hero-section">
       {/* hero */}
       <div className="p-6 px-8 sm:px-4  md:py-20 pb-4 md:pb-24 bg-gray-200">
         <div className="hero flex justify-center lg:justify-start lg:px-24 items-end px-3">

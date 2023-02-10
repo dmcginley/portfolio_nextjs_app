@@ -1,15 +1,29 @@
 import React from "react";
 // import Image from "next/image";
 
-import { SiDjango, SiPython, SiJavascript } from "react-icons/si";
+import {
+  SiDjango,
+  SiPython,
+  SiJavascript,
+  SiFigma,
+  SiGimp,
+  SiHtml5,
+  SiCss3,
+  SiTailwindcss,
+  SiBootstrap,
+} from "react-icons/si";
+import { DiPhotoshop } from "react-icons/di";
+const skills_icons = { color: "#475569", fontSize: "3.6rem" };
+
 // import { RiLinkedinFill } from "react-icons/ri";
 
 // import mypic from "../public/static/images/project_1.png";
+import { skills } from ".././constants/skills";
 
 // import { projects } from "../constants/constants";
 
 const Skills = () => (
-  <section className="px-4 pt-10 md:p-8 lg:px-20">
+  <section className="skills-section px-4 pt-10 md:p-8 lg:px-20">
     <div
       id="skills"
       className="text-4xl lg:text-6xl px-6 py-8 md:pt-8 md:pb-10 lg:pt-20 lg:pb-16 font-semibold text-darkBlue md:items-center text-center md:text-left"
@@ -20,77 +34,54 @@ const Skills = () => (
         <span className="text-blue-500">/</span>
       </h3>
     </div>
-
-    <div className="card-section  m-auto md:flex md:justify-center gap-6">
-      <div className="block rounded-lg shadow-lg bg-white md:max-w-sm text-center mb-6 flex-1">
-        <div className="bg-slate-400 p-3 rounded-t">
-          <SiDjango size={50} />
-        </div>
-        <h3 className=" text-xl py-3 px-6 border-gray-300">
-          Lorem ipsum dolor
-        </h3>
-        <div className="p-6">
-          <p className="text-gray-700 text-base mb-4">
-            With supporting text below as a natural lead-in to additional
-            content.
-          </p>
-          <button
-            type="button"
-            className=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
-          >
-            Button
-          </button>
-        </div>
-        <div className="py-3 px-6 border-t border-gray-300 text-gray-600">
-          2 days ago
-        </div>
+    <div>
+      <p className="text-center text-lg md:text-xl m-auto max-w-3xl pb-6">
+        Here are some of the technoligies I've used in my projects, including
+        this portfolio websit which was built using <strong>Next.js</strong>
+      </p>
+    </div>
+    <div className="grid grid-cols-3 sm:grid-cols-5 lg:grid-cols-10 gap-4 justify-items-center py-4">
+      {/* <div className=" text-center shadow-lg py-10 px-14 rounded-md bg-slate-100">
+        <SiCss3 style={skills_icons} />
+        <h4>Django</h4>
+      </div> */}
+      <div className="py-4">
+        <SiHtml5 style={skills_icons} />
       </div>
-      <div className="block rounded-lg shadow-lg bg-white md:max-w-sm text-center mb-6 flex-1">
-        <div className="bg-orange-400 p-3 rounded-t">
-          <SiPython size={50} />
-        </div>
-        <h3 className=" text-xl py-3 px-6 border-gray-300">
-          Lorem ipsum dolor
-        </h3>
-        <div className="p-6">
-          <p className="text-gray-700 text-base mb-4">
-            With supporting text below as a natural lead-in to additional
-            content.
-          </p>
-          <button
-            type="button"
-            className=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
-          >
-            Button
-          </button>
-        </div>
-        <div className="py-3 px-6 border-t border-gray-300 text-gray-600">
-          2 days ago
-        </div>
+      <div className="py-4">
+        <SiCss3 style={skills_icons} />
       </div>
-      <div className="block rounded-lg shadow-lg bg-white md:max-w-sm text-center mb-6 flex-1">
-        <div className="bg-violet-400 p-3 rounded-t">
-          <SiJavascript size={50} />
-        </div>
-        <h3 className=" text-lg py-3 px-4 pb-0 border-gray-300">
-          Lorem ipsum dolor
-        </h3>
-        <div className="p-4">
-          <p className="text-gray-700 text-base mb-4">
-            With supporting text bedf additional content.
-          </p>
-          <button
-            type="button"
-            className=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
-          >
-            Button
-          </button>
-        </div>
-        <div className="py-3 px-6 border-t border-gray-300 text-gray-600">
-          2 days ago
-        </div>
+      <div className="py-4">
+        <SiJavascript style={skills_icons} />
+      </div>
+      <div className="py-4">
+        <SiPython style={skills_icons} />
+      </div>
+      <div className="py-4">
+        <SiDjango style={skills_icons} />
+      </div>
+      <div className="py-4">
+        <SiBootstrap style={skills_icons} />
+      </div>
+      <div className="py-4">
+        <SiTailwindcss style={skills_icons} />
+      </div>
+      <div className="py-4">
+        <SiFigma style={skills_icons} />
+      </div>
+      <div className="py-4">
+        <DiPhotoshop style={skills_icons} />
+      </div>
+      <div className="py-4">
+        <SiGimp style={skills_icons} />
       </div>
     </div>
+
+    {/* <div>
+      {skills.map(({ icon }) => (
+        <div></div>
+      ))}
+    </div> */}
   </section>
 );
 export default Skills;

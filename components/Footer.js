@@ -5,7 +5,7 @@ const Footer = () => {
     <footer>
       {/* footer */}
       <div className=" px-8 py-4 md:px-20  bg-gray-200">
-        <div className="md:flex text-center md:text-left">
+        {/* <div className="md:flex text-center md:text-left">
           <div className="py-10 flex-1">
             <h4 className="font-semibold">Resources</h4>
             <ul>
@@ -53,7 +53,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-        </div>
+        </div> */}
         <div className="text-center text-gray-600">
           <p>Donnchadh Mc Ginley • 2023</p>
         </div>

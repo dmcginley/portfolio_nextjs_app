@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 # The Project
 
-site: https://myapp-dmcginley.vercel.app/
+site: https://dmcginley.github.io/myapp/
 
 ## Getting Started
 

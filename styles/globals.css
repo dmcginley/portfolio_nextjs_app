@@ -16,9 +16,17 @@ html {
 
 }
 
-.main-grid * {
+main,
+footer,
+.nav-section,
+/* .hero-section, */
+.projects-section,
+.skills-section {
   grid-column: 2;
+}
 
+.hero-section {
+  grid-column: 1/-1;
 }
 
 .card {
@@ -36,7 +44,6 @@ html {
   padding: 0;
   margin: 0;
 }
-
 
 @media (prefers-color-scheme: dark) {
   html {
