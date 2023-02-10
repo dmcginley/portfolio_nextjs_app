@@ -11,7 +11,7 @@ const Projects = () => (
       className="text-4xl lg:text-6xl px-6 py-8 md:pt-8 md:pb-10 lg:pt-20 lg:pb-16 font-semibold text-darkBlue md:items-center text-center md:text-left"
     >
       <h3>
-        My<span className="text-blue-500">_</span>Projects
+        my<span className="text-blue-500">_</span>Projects
         <span className="text-blue-500">/</span>
       </h3>
     </div>
@@ -29,19 +29,35 @@ const Projects = () => (
           source,
         }) => (
           <div className="card m-auto" key={id}>
-            <a
-              href="#"
-              className="group inline-block rounded-md shadow-lg bg-slate-100"
-            >
+            <div className="group inline-block rounded-md shadow-lg">
               <div className="relative mx-auto max-w-md md:max-w-none">
-                <Image
-                  src={image}
-                  className="rounded-t-md object-cover"
-                  alt="Picture of the project website"
-                  width="740"
-                  height="600"
-                  // fill
-                />
+                <div className="flex justify-center items-center relative">
+                  <Image
+                    src={image}
+                    className="rounded-t-md object-cover group-hover:opacity-40 transition-all duration-500"
+                    alt="Picture of the project website"
+                    width="740"
+                    height="600"
+                    // fill
+                  />
+                  <div className="absolute flex gap-2 md:gap-6 2xl:gap-12">
+                    <a
+                      href={website}
+                      // className=" invisible group-hover:visible group-hover:transition-all  text-slate-900 hover:bg-slate-100/50 text-xl rounded-full border-solid border-slate-800 border-2 py-1 px-4 m-1 font-semibold"
+                      className=" invisible group-hover:visible group-hover:transition-all  text-slate-900 hover:bg-slate-700 hover:text-slate-50 hover:border-slate-700 text-xl rounded-full border-solid border-slate-800 border-2 py-1 px-4 m-1 font-semibold"
+                      target="_blank"
+                    >
+                      Live Site
+                    </a>
+                    <a
+                      href={source}
+                      className=" invisible group-hover:visible group-hover:transition-all  text-slate-900 hover:bg-slate-700 hover:text-slate-50 hover:border-slate-700 text-xl rounded-full border-solid border-slate-800 border-2 py-1 px-4 m-1 font-semibold"
+                      target="_blank"
+                    >
+                      GitHub
+                    </a>
+                  </div>
+                </div>
                 <div className="flex flex-col justify-end">
                   <div className="p-6 transition-all rounded-b-md ">
                     <h3 className="text-2xl pb-1 text-gray-900 font-semibold md:w-64 lg:w-full whitespace-nowrap text-ellipsis overflow-hidden">
@@ -64,7 +80,7 @@ const Projects = () => (
                   </div>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
         )
       )}

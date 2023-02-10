@@ -11,16 +11,16 @@ const Hero = () => {
       <div className="p-6 px-8 sm:px-4  md:py-20 pb-4 md:pb-24 bg-gray-200">
         <div className="hero flex justify-center lg:justify-start lg:px-24 items-end px-3">
           <img
-            className="rounded-3xl h-36 w-36 md:h-44  md:w-44"
+            className="rounded-3xl h-32 w-32 sm:h-36  sm:w-36 md:h-44  md:w-44"
             src="static/images/cat_3.png"
             alt=""
           />
 
           <div className="pl-6">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold pb-2 pl-2 text-slate-800">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-semibold pb-2 pl-2 text-slate-800">
               Donnchadh Mc Ginley
             </h1>
-            <p className="text-darkBlue text-lg lg:text-2xl pl-2">
+            <p className="text-darkBlue text-lg md:text-xl xl:text-2xl pl-2">
               Fullstack develiper
             </p>
             {/* social icons desktop*/}
@@ -70,7 +70,10 @@ const Hero = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <SiGithub style={social_icons} />
+          <SiGithub
+            style={social_icons}
+            className="hover:fill-darkBlueHover transition-all"
+          />
         </a>
         <a
           className="p-2 mx-12"
@@ -78,10 +81,16 @@ const Hero = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <RiLinkedinFill style={social_icons} />
+          <RiLinkedinFill
+            style={social_icons}
+            className="hover:fill-darkBlueHover transition-all"
+          />
         </a>
         <a className="p-2" href="" target="_blank" rel="noopener noreferrer">
-          <SiTwitter style={social_icons} />
+          <SiTwitter
+            style={social_icons}
+            className="hover:fill-darkBlueHover transition-all"
+          />
         </a>
       </div>
     </section>

@@ -29,13 +29,12 @@ const Skills = () => (
       className="text-4xl lg:text-6xl px-6 py-8 md:pt-8 md:pb-10 lg:pt-20 lg:pb-16 font-semibold text-darkBlue md:items-center text-center md:text-left"
     >
       <h3>
-        Skills
-        <span className="text-blue-500">_</span>Technologies
+        Technologies
         <span className="text-blue-500">/</span>
       </h3>
     </div>
     <div>
-      <p className="text-center text-lg md:text-xl m-auto max-w-3xl pb-6">
+      <p className="text-gray-600 text-center text-lg md:text-xl m-auto max-w-3xl pb-6">
         Here are some of the technoligies I've used in my projects, including
         this portfolio websit which was built using <strong>Next.js</strong>
       </p>
