@@ -35,8 +35,8 @@ const Skills = () => (
     </div>
     <div>
       <p className="text-gray-600 text-center text-lg md:text-xl m-auto max-w-3xl pb-6">
-        Here are some of the technoligies I've used in my projects, including
-        this portfolio websit which was built using <strong>Next.js</strong>
+        Here are some of the technology I've used in my projects, including this
+        portfolio websit which was built using <strong>Next.js</strong>
       </p>
     </div>
     <div className="grid grid-cols-3 sm:grid-cols-5 lg:grid-cols-10 gap-4 justify-items-center py-4">

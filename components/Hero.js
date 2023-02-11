@@ -1,7 +1,7 @@
 import React from "react";
 
 import { RiLinkedinFill } from "react-icons/ri";
-import { SiGithub, SiFigma } from "react-icons/si";
+import { SiGithub, SiGmail } from "react-icons/si";
 const social_icons = { color: "475569", fontSize: "2.6rem" };
 
 const Hero = () => {
@@ -20,7 +20,7 @@ const Hero = () => {
             <h1 className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-semibold pb-2 pl-2 text-slate-800">
               Donnchadh Mc Ginley
             </h1>
-            <p className="text-darkBlue text-lg md:text-xl xl:text-2xl pl-2">
+            <p className="text-slate-700 text-lg md:text-xl xl:text-2xl pl-2">
               Fullstack develiper
             </p>
             {/* social icons desktop*/}
@@ -49,11 +49,11 @@ const Hero = () => {
               </a>
               <a
                 className="p-2"
-                href="https://www.figma.com/files/recent?fuid=697723773435929263"
+                href="mailto:mcginley.donn@gmail.com?subject=Fullstack%20develiper%20query"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <SiFigma
+                <SiGmail
                   style={social_icons}
                   className="hover:fill-darkBlueHover transition-all"
                 />
@@ -89,11 +89,11 @@ const Hero = () => {
         </a>
         <a
           className="p-2"
-          href="https://www.figma.com/files/recent?fuid=697723773435929263"
+          href="mailto:mcginley.donn@gmail.com?subject=Fullstack%20develiper%20query"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <SiFigma
+          <SiGmail
             style={social_icons}
             className="hover:fill-darkBlueHover transition-all"
           />
