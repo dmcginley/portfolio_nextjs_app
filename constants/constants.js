@@ -61,8 +61,8 @@ export const projects = [
     image: "/static/images/project_7.png",
     date: "18 Jan 2023",
     tags: ["Next.js", "TailwindCSS"],
-    website: "",
-    source: "https://github.com/dmcginley/message_board_project",
+    website: "/",
+    source: "https://github.com/dmcginley/portfolio_nextjs_app",
     id: 5,
   },
   {

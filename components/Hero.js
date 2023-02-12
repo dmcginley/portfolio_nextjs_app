@@ -21,7 +21,7 @@ const Hero = () => {
               Donnchadh Mc Ginley
             </h1>
             <p className="text-slate-700 text-lg md:text-xl xl:text-2xl pl-2">
-              Fullstack develiper
+              FullStack developer
             </p>
             {/* social icons desktop*/}
             <div className="pt-4 hidden md:flex">
