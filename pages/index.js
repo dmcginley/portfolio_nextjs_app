@@ -33,7 +33,7 @@ const social_icons = { color: "rgb(40, 98, 170)", fontSize: "2.6rem" };
 export default function Home() {
   return (
     <Layout className="">
-      <section className="main-grid ui-sans-serif">
+      <section className="main-grid ui-sans-serif dark:bg-darkBg">
         <Hero />
         <Projects />
         <Skills />

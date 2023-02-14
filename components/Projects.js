@@ -5,7 +5,7 @@ import Image from "next/image";
 import { projects } from ".././constants/constants";
 
 const Projects = () => (
-  <section className="projects-section px-4 pt-10 md:p-8 lg:px-20">
+  <section className="projects-section px-4 pt-10 md:p-8 lg:px-20 dark:bg-darkBg">
     <div
       id="project"
       className="text-4xl lg:text-6xl px-6 py-8 md:pt-8 md:pb-10 lg:pt-20 lg:pb-16 font-semibold text-darkBlue md:items-center text-center md:text-left"
