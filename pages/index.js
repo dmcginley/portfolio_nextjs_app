@@ -2,6 +2,8 @@ import Head from "next/head";
 import Image from "next/image";
 // import { Inter } from "@next/font/google";
 // import Hero from "../components/Hero/Hero";
+import { useTheme } from "next-themes";
+import { useState, useEffect } from "react";
 
 import { Layout } from "../layout/Layout";
 import Hero from "../components/Hero";

@@ -1,10 +1,11 @@
 import React from "react";
+import ThemeToggler from "../components/ThemeToggler";
 
 const Header = () => {
   return (
     <div className="nav-section">
-      <nav className=" bg-gray-200">
-        <div className="px-6 md:px-10 flex h-16 items-center justify-center md:justify-start">
+      <nav className=" bg-gray-200 dark:bg-gray-800">
+        <div className="px-6 md:px-10 flex h-16 items-center justify-center md:justify-end">
           <div className=" inset-y-0 flex items-center">
             <ul className="flex align-middle justify-center">
               <li className="mr-3">
@@ -39,6 +40,9 @@ const Header = () => {
                 >
                   Resume
                 </a>
+              </li>
+              <li>
+                <ThemeToggler />
               </li>
             </ul>
           </div>

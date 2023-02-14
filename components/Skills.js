@@ -26,20 +26,20 @@ const Skills = () => (
   <section className="skills-section px-4 pt-10 md:p-8 lg:px-20">
     <div
       id="skills"
-      className="text-4xl lg:text-6xl px-6 py-8 md:pt-8 md:pb-10 lg:pt-20 lg:pb-16 font-semibold text-darkBlue md:items-center text-center md:text-left"
+      className="text-4xl lg:text-6xl px-6 py-8 md:pt-8 md:pb-10 lg:pt-20 lg:pb-16 font-semibold text-darkBlue dark:text-blue-500 md:items-center text-center md:text-left"
     >
       <h3>
         Technologies
-        <span className="text-blue-500">/</span>
+        <span className="text-blue-500 dark:text-blue-300">/</span>
       </h3>
     </div>
     <div>
-      <p className="text-gray-600 text-center text-lg md:text-xl m-auto max-w-3xl pb-6">
+      <p className="text-gray-600 dark:text-gray-400  text-center text-lg md:text-xl m-auto max-w-3xl">
         Here are some of the technology I've used in my projects, including this
         portfolio websit which was built using <strong>Next.js</strong>
       </p>
     </div>
-    <div className="grid grid-cols-3 sm:grid-cols-5 lg:grid-cols-10 gap-4 justify-items-center py-4">
+    <div className="grid grid-cols-3 sm:grid-cols-5 lg:grid-cols-5 lg:w-4/5 m-auto gap-4 justify-items-center py-14">
       {/* <div className=" text-center shadow-lg py-10 px-14 rounded-md bg-slate-100">
         <SiCss3 style={skills_icons} />
         <h4>Django</h4>

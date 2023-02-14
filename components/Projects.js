@@ -22,55 +22,59 @@ const Projects = () => (
           title,
           image,
           description,
-          author,
+          project,
           date,
           tags,
           website,
           source,
         }) => (
           <div className="card m-auto" key={id}>
-            <div className="group inline-block rounded-md shadow-lg">
+            <div className="inline-block rounded-md shadow-lg hover:shadow-xl transition-all dark:bg-slate-800">
               <div className="relative mx-auto max-w-md md:max-w-none">
                 <div className="flex justify-center items-center relative">
                   <Image
                     src={image}
-                    className="rounded-t-md object-cover group-hover:opacity-40 transition-all duration-500"
+                    className="rounded-t-md object-cover"
                     alt="Picture of the project website"
                     width="740"
                     height="600"
                     // fill
                   />
-                  <div className="absolute flex gap-2 md:gap-6 2xl:gap-12">
-                    <a
-                      href={website}
-                      className=" invisible group-hover:visible group-hover:transition-all  text-slate-900 hover:bg-slate-700 hover:text-slate-50 hover:border-slate-700 text-xl rounded-full border-solid border-slate-800 border-2 py-1 px-4 m-1 font-semibold"
-                      target="_blank"
-                    >
-                      Live Site
-                    </a>
-                    <a
-                      href={source}
-                      className=" invisible group-hover:visible group-hover:transition-all  text-slate-900 hover:bg-slate-700 hover:text-slate-50 hover:border-slate-700 text-xl rounded-full border-solid border-slate-800 border-2 py-1 px-4 m-1 font-semibold"
-                      target="_blank"
-                    >
-                      GitHub
-                    </a>
-                  </div>
                 </div>
                 <div className="flex flex-col justify-end">
-                  <div className="p-6 rounded-b-md group-hover:opacity-50 transition-all">
-                    <h3 className="text-2xl pb-1 text-gray-900 font-semibold md:w-64 lg:w-full whitespace-nowrap text-ellipsis overflow-hidden">
+                  <div className="p-6 rounded-b-md">
+                    <h3 className="text-2xl pb-1 text-gray-900 font-semibold md:w-64 lg:w-full whitespace-nowrap text-ellipsis overflow-hidden dark:text-slate-100">
                       {title}
                     </h3>
-                    <p className="text-sm text-gray-600">
-                      {author} • <time>{date}</time>
+                    <p className="text-sm text-gray-600 dark:text-slate-400">
+                      <strong>{project}</strong> • <time>{date}</time>
                     </p>
-                    <p className="text-gray-600 mt-4 font-semibold">Stack</p>
+
+                    <div className="py-6">
+                      <a
+                        href={website}
+                        className=" button py-2 px-4 rounded-md font-semibold text-slate-800 hover:bg-slate-700 hover:text-slate-50 hover:border-slate-700  dark:bg-slate-700 dark:text-slate-50 dark:border-slate-700 border border-solid border-slate-800 hover:dark:bg-slate-900 hover:shadow-2xl transition-all"
+                        target="_blank"
+                      >
+                        Live Site
+                      </a>
+                      <a
+                        href={source}
+                        className="ml-4 button py-2 px-4 rounded-md font-semibold text-slate-800 hover:bg-slate-700 hover:text-slate-50 hover:border-slate-700  dark:bg-slate-700 dark:text-slate-50 dark:border-slate-700 border border-solid border-slate-800 hover:dark:bg-slate-900 hover:shadow-2xl transition-all"
+                        target="_blank"
+                      >
+                        GitHub
+                      </a>
+                    </div>
+
+                    <p className="text-gray-600 dark:text-slate-200 font-semibold">
+                      Stack
+                    </p>
                     <div className="mt-2 flex gap-2">
                       {tags.map((tags, i) => (
                         <span
                           key={i}
-                          className="rounded-full border-solid border-slate-500 border px-2 py-1 text-xs font-semibold text-slate-600"
+                          className="rounded-full border-solid border-slate-500 border px-2 py-1 text-xs font-semibold text-slate-600 dark:text-slate-400"
                         >
                           {tags}
                         </span>
