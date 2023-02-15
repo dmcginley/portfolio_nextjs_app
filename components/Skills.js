@@ -13,7 +13,7 @@ import {
   SiBootstrap,
 } from "react-icons/si";
 import { DiPhotoshop } from "react-icons/di";
-const skills_icons = { color: "#475569", fontSize: "3.6rem" };
+const skills_icons = { fontSize: "3.6rem" };
 
 // import { RiLinkedinFill } from "react-icons/ri";
 
@@ -45,34 +45,64 @@ const Skills = () => (
         <h4>Django</h4>
       </div> */}
       <div className="py-4">
-        <SiHtml5 style={skills_icons} />
+        <SiHtml5
+          style={skills_icons}
+          className=" fill-slate-700 dark:fill-slate-400"
+        />
       </div>
       <div className="py-4">
-        <SiCss3 style={skills_icons} />
+        <SiCss3
+          style={skills_icons}
+          className=" fill-slate-700 dark:fill-slate-400"
+        />
       </div>
       <div className="py-4">
-        <SiJavascript style={skills_icons} />
+        <SiJavascript
+          style={skills_icons}
+          className=" fill-slate-700 dark:fill-slate-400"
+        />
       </div>
       <div className="py-4">
-        <SiPython style={skills_icons} />
+        <SiPython
+          style={skills_icons}
+          className=" fill-slate-700 dark:fill-slate-400"
+        />
       </div>
       <div className="py-4">
-        <SiDjango style={skills_icons} />
+        <SiDjango
+          style={skills_icons}
+          className=" fill-slate-700 dark:fill-slate-400"
+        />
       </div>
       <div className="py-4">
-        <SiBootstrap style={skills_icons} />
+        <SiBootstrap
+          style={skills_icons}
+          className=" fill-slate-700 dark:fill-slate-400"
+        />
       </div>
       <div className="py-4">
-        <SiTailwindcss style={skills_icons} />
+        <SiTailwindcss
+          style={skills_icons}
+          className=" fill-slate-700 dark:fill-slate-400"
+        />
       </div>
       <div className="py-4">
-        <SiFigma style={skills_icons} />
+        <SiFigma
+          style={skills_icons}
+          className=" fill-slate-700 dark:fill-slate-400"
+        />
       </div>
       <div className="py-4">
-        <DiPhotoshop style={skills_icons} />
+        <DiPhotoshop
+          style={skills_icons}
+          className=" fill-slate-700 dark:fill-slate-400"
+        />
       </div>
       <div className="py-4">
-        <SiGimp style={skills_icons} />
+        <SiGimp
+          style={skills_icons}
+          className=" fill-slate-700 dark:fill-slate-400"
+        />
       </div>
     </div>
 

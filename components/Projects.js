@@ -29,7 +29,7 @@ const Projects = () => (
           source,
         }) => (
           <div className="card m-auto" key={id}>
-            <div className="inline-block rounded-md shadow-lg hover:shadow-xl transition-all dark:bg-slate-800">
+            <div className="inline-block rounded-md shadow-lg hover:shadow-xl dark:hover:shadow-2xl transition-all dark:bg-slate-800">
               <div className="relative mx-auto max-w-md md:max-w-none">
                 <div className="flex justify-center items-center relative">
                   <Image
@@ -50,17 +50,17 @@ const Projects = () => (
                       <strong>{project}</strong> • <time>{date}</time>
                     </p>
 
-                    <div className="py-6">
+                    <div className="py-6 flex justify-around gap-4">
                       <a
                         href={website}
-                        className=" button py-2 px-4 rounded-md font-semibold text-slate-800 hover:bg-slate-700 hover:text-slate-50 hover:border-slate-700  dark:bg-slate-700 dark:text-slate-50 dark:border-slate-700 border border-solid border-slate-800 hover:dark:bg-slate-900 hover:shadow-2xl transition-all"
+                        className="flex-1 button text-center py-2 md:py-3 rounded-md font-semibold text-slate-800 bg-slate-300  hover:bg-slate-400 hover:text-slate-900  dark:bg-slate-700 dark:text-slate-50  hover:dark:bg-slate-900 transition-all"
                         target="_blank"
                       >
                         Live Site
                       </a>
                       <a
                         href={source}
-                        className="ml-4 button py-2 px-4 rounded-md font-semibold text-slate-800 hover:bg-slate-700 hover:text-slate-50 hover:border-slate-700  dark:bg-slate-700 dark:text-slate-50 dark:border-slate-700 border border-solid border-slate-800 hover:dark:bg-slate-900 hover:shadow-2xl transition-all"
+                        className="flex-1 button text-center py-2 md:py-3 rounded-md font-semibold text-slate-800 bg-slate-300  hover:bg-slate-400 hover:text-slate-900  dark:bg-slate-700 dark:text-slate-50  hover:dark:bg-slate-900 transition-all"
                         target="_blank"
                       >
                         GitHub

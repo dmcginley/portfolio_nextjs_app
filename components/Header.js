@@ -41,7 +41,7 @@ const Header = () => {
                   Resume
                 </a>
               </li>
-              <li>
+              <li className="m-auto">
                 <ThemeToggler />
               </li>
             </ul>

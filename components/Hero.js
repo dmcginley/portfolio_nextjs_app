@@ -34,7 +34,7 @@ const Hero = () => {
               >
                 <SiGithub
                   style={social_icons}
-                  className="hover:fill-darkBlueHover transition-all"
+                  className="hover:fill-darkBlueHover transition-all fill-slate-600 dark:fill-slate-500 dark:hover:fill-darkBlueHover"
                 />
               </a>
               <a
@@ -45,7 +45,7 @@ const Hero = () => {
               >
                 <RiLinkedinFill
                   style={social_icons}
-                  className="hover:fill-darkBlueHover transition-all"
+                  className="hover:fill-darkBlueHover transition-all fill-slate-600 dark:fill-slate-500 dark:hover:fill-darkBlueHover"
                 />
               </a>
               <a
@@ -56,7 +56,7 @@ const Hero = () => {
               >
                 <SiGmail
                   style={social_icons}
-                  className="hover:fill-darkBlueHover transition-all"
+                  className="hover:fill-darkBlueHover transition-all fill-slate-600 dark:fill-slate-500 dark:hover:fill-darkBlueHover"
                 />
               </a>
             </div>
@@ -74,7 +74,7 @@ const Hero = () => {
           <SiGithub
             style={social_icons}
             lable="GiitHub"
-            className="hover:fill-darkBlueHover transition-all"
+            className="hover:fill-darkBlueHover transition-all fill-slate-600 dark:fill-slate-500 dark:hover:fill-darkBlueHover"
           />
         </a>
         <a
@@ -85,7 +85,7 @@ const Hero = () => {
         >
           <RiLinkedinFill
             style={social_icons}
-            className="hover:fill-darkBlueHover transition-all"
+            className="hover:fill-darkBlueHover transition-all fill-slate-600 dark:fill-slate-500 dark:hover:fill-darkBlueHover"
           />
         </a>
         <a
@@ -96,7 +96,7 @@ const Hero = () => {
         >
           <SiGmail
             style={social_icons}
-            className="hover:fill-darkBlueHover transition-all"
+            className="hover:fill-darkBlueHover transition-all fill-slate-600 dark:fill-slate-500 dark:hover:fill-darkBlueHover"
           />
         </a>
       </div>
