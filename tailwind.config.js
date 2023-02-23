@@ -10,8 +10,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        primary: ["var(--lora-font)", ...fontFamily.sans],
-        serif: ["var(--lora-font)", ...fontFamily.serif],
+        sans: ['var(--font-roboto)']
       },
       colors: {
         darkBlue: "rgb(40, 98, 170);",

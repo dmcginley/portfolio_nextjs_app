@@ -18,10 +18,10 @@ const Hero = () => {
           />
 
           <div className="pl-6 md:pl-12">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-semibold pb-2 pl-2 text-slate-800 dark:text-slate-100">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-semibold pb-2 xl:pb-3 pl-2 text-slate-800 dark:text-slate-100">
               Donnchadh Mc Ginley
             </h1>
-            <p className="text-slate-700 dark:text-slate-400 text-lg md:text-xl xl:text-2xl pl-2">
+            <p className="text-slate-700 dark:text-slate-400 text-lg md:text-xl xl:text-2xl xl:pb-2 pl-2">
               FullStack developer
             </p>
             {/* social icons desktop*/}
