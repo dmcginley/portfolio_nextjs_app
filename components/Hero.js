@@ -13,7 +13,7 @@ const Hero = () => {
         <div className="hero flex justify-center lg:justify-start px-3 md:px-14 xl:px-32 items-end">
           <img
             className="rounded-3xl h-32 w-32 sm:h-40  sm:w-40 md:h-52  md:w-52 lg:h-64 lg:w-64"
-            src="static/images/cat_3.png"
+            src="static/images/profile.webp"
             alt=""
           />
 

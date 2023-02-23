@@ -34,7 +34,7 @@ const Header = () => {
               </li> */}
               <li className="mr-4">
                 <a
-                  className="inline-block rounded bg-darkBlue text-slate-100 hover:bg-sky-600 dark:bg-slate-700 dark:hover:bg-slate-900 text-darkBlue transition-all shadow-lg py-1.5 px-4"
+                  className="inline-block rounded bg-darkBlue text-base text-slate-100 hover:bg-sky-600 dark:bg-slate-700 dark:hover:bg-slate-900 text-darkBlue transition-all py-1.5 px-4"
                   href="/static/cv_2023.pdf"
                   download
                 >

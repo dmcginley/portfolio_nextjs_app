@@ -15,9 +15,11 @@ const Projects = () => (
         <span className="text-blue-500 dark:text-blue-300">/</span>
       </h3>
     </div>
-    <div className="pb-16">
+    <div className="pb-20">
       <p className="text-gray-600 dark:text-gray-400  text-center text-lg md:text-xl m-auto max-w-3xl">
-        Here are some of my projects I've completed in the last year, using <strong>JavaScript, Django, Python, & Next.js</strong> (This website was built using Next.js & Tailwindcss)
+        Here are some of my projects I've completed in the last year, using{" "}
+        <strong>JavaScript, Django, Python, & Next.js</strong> (This website was
+        built using Next.js & Tailwindcss)
       </p>
     </div>
     <div className="flex flex-col justify-center md:grid md:grid-cols-2 xl:grid-cols-3 gap-10 xl:gap-14 md:px-6">
@@ -43,7 +45,7 @@ const Projects = () => (
                     alt="Picture of the project website"
                     width="740"
                     height="600"
-                  // fill
+                    // fill
                   />
                 </div>
                 <div className="flex flex-col justify-end">
@@ -58,14 +60,14 @@ const Projects = () => (
                     <div className="py-6 flex justify-around gap-4">
                       <a
                         href={website}
-                        className="flex-1 button text-center py-2 md:py-3 rounded-md font-semibold text-slate-800 bg-slate-300  hover:bg-slate-400 hover:text-slate-900  dark:bg-slate-700 dark:text-slate-50  hover:dark:bg-slate-900 transition-all"
+                        className="flex-1 button text-center py-2 md:py-3 rounded font-semibold text-slate-800 bg-slate-100 border  border-slate-400 hover:bg-slate-300 hover:text-slate-900  dark:bg-slate-700 dark:text-slate-50 dark:border-slate-500  hover:dark:bg-slate-900 transition-all"
                         target="_blank"
                       >
                         Live Site
                       </a>
                       <a
                         href={source}
-                        className="flex-1 button text-center py-2 md:py-3 rounded-md font-semibold text-slate-800 bg-slate-300  hover:bg-slate-400 hover:text-slate-900  dark:bg-slate-700 dark:text-slate-50  hover:dark:bg-slate-900 transition-all"
+                        className="flex-1 button text-center py-2 md:py-3 rounded font-semibold text-slate-800 bg-slate-100 border border-slate-400  hover:bg-slate-300 hover:text-slate-900  dark:bg-slate-700 dark:text-slate-50 dark:border-slate-500 hover:dark:bg-slate-900 transition-all"
                         target="_blank"
                       >
                         GitHub
