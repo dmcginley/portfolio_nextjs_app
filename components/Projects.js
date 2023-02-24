@@ -6,11 +6,12 @@ import { projects } from ".././constants/constants";
 
 const Projects = () => (
   <section className="projects-section md:p-8 dark:bg-darkBg">
+
     <div
-      id="project"
+      // id="project"
       className="text-4xl lg:text-6xl px-6 py-8 md:pt-8 md:pb-10 lg:pt-20 lg:pb-16 font-semibold text-darkBlue dark:text-blue-500 md:items-center text-center md:text-left"
     >
-      <h3>
+      <h3 id="link1">
         Projects
         <span className="text-blue-500 dark:text-blue-300">/</span>
       </h3>
@@ -45,7 +46,7 @@ const Projects = () => (
                     alt="Picture of the project website"
                     width="740"
                     height="600"
-                    // fill
+                  // fill
                   />
                 </div>
                 <div className="flex flex-col justify-end">

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
@@ -14,7 +15,7 @@ const Tabs = () => {
           >
             <li className="mr-4 flex-1 text-center">
               {/* #TODO: add href for scrole to section */}
-              <a
+              <Link
                 className={
                   "text-sm font-bold uppercase px-5 py-4 shadow-lg rounded block leading-normal " +
                   (openTab === 1
@@ -30,10 +31,10 @@ const Tabs = () => {
                 role="tablist"
               >
                 Projects
-              </a>
+              </Link>
             </li>
             <li className="flex-1 text-center">
-              <a
+              <Link
                 className={
                   "text-sm font-bold uppercase px-5 py-4 shadow-lg rounded block leading-normal " +
                   (openTab === 2
@@ -49,16 +50,17 @@ const Tabs = () => {
                 role="tablist"
               >
                 Skills
-              </a>
+              </Link>
             </li>
           </ul>
           <div className="relative flex flex-col min-w-0 break-words w-full mb-6">
             <div className="px-4 py-5 flex-auto">
               <div className="tab-content tab-space">
-                <div className={openTab === 1 ? "block" : "hidden"} id="link1">
-                  <Projects />
+                <div className={openTab === 1 ? "block" : "hidden"}>
+                  <Projects
+                  />
                 </div>
-                <div className={openTab === 2 ? "block" : "hidden"} id="link2">
+                <div className={openTab === 2 ? "block" : "hidden"}>
                   <Skills />
                 </div>
               </div>
