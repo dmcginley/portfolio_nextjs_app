@@ -42,7 +42,7 @@ export const projects = [
     date: "18 Sep 2022",
     image: "/static/images/project_4.png",
     tags: ["Django", "Python", "jQuery"],
-    website: "https://www.google.com/",
+    website: "https://web-production-ce89.up.railway.app/",
     source: "https://github.com/dmcginley/blog_django_bootstrap5_project4",
     id: 3,
   },

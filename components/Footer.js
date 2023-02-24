@@ -54,7 +54,7 @@ const Footer = () => {
             </ul>
           </div>
         </div> */}
-        <div className="text-center text-gray-600 dark:text-slate-400">
+        <div className="text-center text-sm text-gray-600 dark:text-slate-400">
           <p>Donnchadh Mc Ginley • 2023</p>
         </div>
       </div>

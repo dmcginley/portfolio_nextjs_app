@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 // import mypic from "../public/static/images/project_1.png";
 
-import { projects } from ".././constants/constants";
+import { projects } from "../constants/constants";
 
 const Projects = () => (
   <section className="projects-section md:p-8 dark:bg-darkBg">
