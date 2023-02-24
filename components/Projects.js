@@ -17,7 +17,7 @@ const Projects = () => (
     </div>
     <div className="pb-20">
       <p className="text-gray-600 dark:text-gray-400  text-center text-lg md:text-xl m-auto max-w-3xl">
-        Here are some of my projects I've completed in the last year, using{" "}
+        Here are some of my projects I've completed in the last year, using
         <strong>JavaScript, Django, Python, & Next.js</strong> (This website was
         built using Next.js & Tailwindcss)
       </p>

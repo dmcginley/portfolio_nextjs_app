@@ -13,6 +13,7 @@ const Tabs = () => {
             role="tablist"
           >
             <li className="mr-4 flex-1 text-center">
+              {/* #TODO: add href for scrole to section */}
               <a
                 className={
                   "text-sm font-bold uppercase px-5 py-4 shadow-lg rounded block leading-normal " +

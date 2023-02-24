@@ -1,6 +1,6 @@
 import React from "react";
 import ThemeToggler from "../components/ThemeToggler";
-
+import { HiOutlineDocumentDownload } from "react-icons/hi";
 const Header = () => {
   return (
     <div className="nav-section">
@@ -34,11 +34,15 @@ const Header = () => {
               </li> */}
               <li className="mr-4">
                 <a
-                  className="inline-block rounded bg-darkBlue text-base text-slate-100 hover:bg-sky-600 dark:bg-slate-700 dark:hover:bg-slate-900 text-darkBlue transition-all py-1.5 px-4"
+                  className="flex text-center text-base rounded bg-darkBlue  text-slate-100 hover:bg-sky-600 dark:bg-slate-700 dark:hover:bg-slate-900 text-darkBlue transition-all py-1.5 px-4"
                   href="/static/cv_2023.pdf"
                   download
                 >
                   Resume
+                  <HiOutlineDocumentDownload
+                    className="m-auto ml-1"
+                    style={{ fontSize: "1.4em" }}
+                  />
                 </a>
               </li>
               <li className="m-auto">
