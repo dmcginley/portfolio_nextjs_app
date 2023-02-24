@@ -17,7 +17,7 @@ const Tabs = () => {
               {/* #TODO: add href for scrole to section */}
               <Link
                 className={
-                  "text-sm font-bold uppercase px-5 py-4 shadow-lg rounded block leading-normal " +
+                  "text-sm font-bold uppercase px-5 py-3 md:py-4 shadow-lg rounded block leading-normal " +
                   (openTab === 1
                     ? "cursor-default text-slate-900 bg-slate-300  transition-all dark:text-slate-100 dark:bg-slate-900"
                     : "text-slate-700 bg-slate-100 hover:bg-slate-200 transition-all dark:text-slate-100 dark:bg-slate-800")
@@ -36,7 +36,7 @@ const Tabs = () => {
             <li className="flex-1 text-center">
               <Link
                 className={
-                  "text-sm font-bold uppercase px-5 py-4 shadow-lg rounded block leading-normal " +
+                  "text-sm font-bold uppercase px-5 py-3 md:py-4 shadow-lg rounded block leading-normal " +
                   (openTab === 2
                     ? "cursor-default text-slate-900 bg-slate-300 transition-all dark:text-slate-100 dark:bg-slate-900"
                     : "text-slate-700 bg-slate-100 dark:text-slate-100 hover:bg-slate-200 transition-all dark:bg-slate-800")
