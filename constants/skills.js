@@ -13,6 +13,8 @@ import {
   SiBlender,
   SiInkscape,
   SiJira,
+  SiRailway,
+  SiAmazonaws,
 } from "react-icons/si";
 import { DiPhotoshop } from "react-icons/di";
 
@@ -52,8 +54,16 @@ export const icons_dev1 = [
     title: "PostgreSQL",
   },
   {
+    icons: SiAmazonaws,
+    title: "Amazon AWS",
+  },
+  {
     icons: SiGithub,
     title: "Github",
+  },
+  {
+    icons: SiRailway,
+    title: "Railway",
   },
 ];
 
