@@ -8,7 +8,6 @@ const Projects = () => (
   <section className="projects-section md:p-8 dark:bg-darkBg">
 
     <div
-      // id="project"
       className="text-4xl lg:text-6xl px-6 py-8 md:pt-8 md:pb-10 lg:pt-20 lg:pb-16 font-semibold text-darkBlue dark:text-blue-500 md:items-center text-center md:text-left"
     >
       <h3 id="link1">

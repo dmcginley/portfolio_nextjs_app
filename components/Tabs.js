@@ -7,7 +7,7 @@ const Tabs = () => {
   const [openTab, setOpenTab] = React.useState(1);
   return (
     <>
-      <section className="tabs-section flex flex-wrap mt-16 mx-2 lg:mx-10">
+      <section className="tabs-section flex flex-wrap mt-10 md:mt-16 mx-2 lg:mx-10">
         <div className="w-full">
           <ul
             className="flex m-auto list-none flex-wrap p-4 flex-row max-w-4xl"
