@@ -13,7 +13,7 @@ const Tabs = () => {
             className="flex m-auto list-none flex-wrap p-4 flex-row max-w-4xl"
             role="tablist"
           >
-            <li className="mr-4 flex-1 text-center">
+            <li className="tab-button mr-4 flex-1 text-center">
               {/* #TODO: add href for scrole to section */}
               <Link
                 className={

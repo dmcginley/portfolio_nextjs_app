@@ -1,11 +1,10 @@
 import { Layout } from "../layout/Layout";
 import Hero from "../components/Hero";
 import Tabs from "../components/Tabs";
+// import { motion } from "framer-motion"
 
 
-
-
-const social_icons = { color: "rgb(40, 98, 170)", fontSize: "2.6rem" };
+// const social_icons = { color: "rgb(40, 98, 170)", fontSize: "2.6rem" };
 
 export default function Home() {
   return (
@@ -15,6 +14,6 @@ export default function Home() {
         <Tabs />
         {/* <Contact /> */}
       </section>
-    </Layout>
+    </Layout >
   );
 }
