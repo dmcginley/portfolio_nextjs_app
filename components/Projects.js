@@ -27,6 +27,7 @@ const Projects = () => (
         ({
           id,
           title,
+          status,
           image,
           description,
           project,
@@ -39,6 +40,8 @@ const Projects = () => (
             <div className="inline-block rounded-md shadow-lg hover:shadow-xl dark:hover:shadow-2xl transition-all dark:bg-slate-800">
               <div className="relative mx-auto max-w-md md:max-w-none">
                 <div className="flex justify-center items-center relative">
+                  <div className="absolute text-sky-700 dark:text-sky-300 text-center font-semibold bg-sky-200 dark:bg-sky-800 bottom-0 w-full">{status}</div>
+
                   <Image
                     src={image}
                     className="rounded-t-md object-cover"

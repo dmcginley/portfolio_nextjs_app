@@ -2,6 +2,7 @@ export const projects = [
   {
     title: "Yoga website",
     description: "The description of project",
+    status: "",
     author: "Donnchadh",
     project: "Project 1",
     date: "19 Feb 2022",
@@ -14,6 +15,7 @@ export const projects = [
   {
     title: "Chartjs",
     description: "The description of project",
+    status: "",
     author: "Donnchadh",
     project: "Project 2",
     date: "7 May 2022",
@@ -37,6 +39,7 @@ export const projects = [
   {
     title: "Tech Blog",
     description: "The description of project",
+    status: "",
     author: "Donnchadh",
     project: "Project 3",
     date: "18 Sep 2022",
@@ -49,6 +52,7 @@ export const projects = [
   {
     title: "eCommerce",
     description: "The description of project",
+    status: "",
     author: "Donnchadh",
     project: "Project 4",
     date: "19 Dec 2022",
@@ -61,6 +65,7 @@ export const projects = [
   {
     title: "Portfolio",
     description: "The description of project",
+    status: "",
     author: "Donnchadh",
     project: "Project 5",
     image: "/static/images/project_7.png",
@@ -73,9 +78,10 @@ export const projects = [
   {
     title: "Old style Blog",
     description: "The description of project",
+    status: "Currently working on",
     author: "Donnchadh",
     project: "Project 6",
-    date: "10 Feb 2023",
+    date: "11 Mar 2023",
     image: "/static/images/project_6.png",
     tags: ["Django", "Python", "jQuery"],
     website: "https://web-production-9d71.up.railway.app/",
