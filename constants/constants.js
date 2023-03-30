@@ -76,7 +76,7 @@ export const projects = [
     id: 5,
   },
   {
-    title: "Old style Blog",
+    title: "Message Board & CRM",
     description: "The description of project",
     status: "Currently working on",
     author: "Donnchadh",
