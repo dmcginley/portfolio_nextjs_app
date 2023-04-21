@@ -25,17 +25,6 @@ export const projects = [
     source: "https://github.com/dmcginley/project2-chart-my-data",
     id: 2,
   },
-  // {
-  //   title: "Project 3 - Battleship Game",
-  //   description: "The description of project",
-  //   author: "Donnchadh",
-  //   date: "29 Nov 2022",
-  //   image: "/static/images/small/project_3_sm.png",
-  //   tags: ["Python"],
-  //   website: "https://www.google.com/",
-  //   source: "https://github.com/",
-  //   id: 3,
-  // },
   {
     title: "Tech Blog",
     description: "The description of project",

@@ -15,6 +15,7 @@ import {
   SiJira,
   SiRailway,
   SiAmazonaws,
+  SiGodotengine,
 } from "react-icons/si";
 import { DiPhotoshop, DiIllustrator } from "react-icons/di";
 
@@ -75,6 +76,11 @@ export const icons_dev1 = [
     icons: SiRailway,
     title: "Railway",
     id: 11,
+  }, 
+  {
+    icons: SiGodotengine,
+    title: "Godot 4",
+    id: 12,
   },
 ];
 
