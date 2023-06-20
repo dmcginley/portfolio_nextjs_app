@@ -16,8 +16,10 @@ import {
   SiRailway,
   SiAmazonaws,
   SiGodotengine,
+  SiReact,
 } from "react-icons/si";
 import { DiPhotoshop, DiIllustrator } from "react-icons/di";
+import { TbBrandNextjs } from "react-icons/tb";
 
 
 // dev icons
@@ -48,39 +50,49 @@ export const icons_dev1 = [
     id: 5,
   },
   {
+    icons: SiReact,
+    title: "React",
+    id: 6,
+  },
+  {
+    icons: TbBrandNextjs,
+    title: "Nextjs",
+    id: 7,
+  },
+  {
     icons: SiBootstrap,
     title: "Bootstrap",
-    id: 6,
+    id: 8,
   },
   {
     icons: SiTailwindcss,
     title: "Tailwindcss",
-    id: 7,
+    id: 9,
   },
   {
     icons: SiPostgresql,
     title: "PostgreSQL",
-    id: 8,
+    id: 10,
   },
   {
     icons: SiAmazonaws,
     title: "Amazon AWS",
-    id: 9,
+    id: 11,
   },
   {
     icons: SiGithub,
     title: "Github",
-    id: 10,
+    id: 12,
   },
   {
     icons: SiRailway,
     title: "Railway",
-    id: 11,
-  }, 
+    id: 13,
+  },
   {
     icons: SiGodotengine,
     title: "Godot 4",
-    id: 12,
+    id: 14,
   },
 ];
 

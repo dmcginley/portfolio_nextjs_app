@@ -33,7 +33,7 @@ const Skills = () => {
             const Icon = e.icons;
             return (
 
-              <div className="py-4 w-28 text-center" key={id}>
+              <div className="dev-section py-4 w-28 text-center" key={id}>
                 <Icon
                   style={skills_icons}
                   className=" fill-slate-700 dark:fill-slate-400 m-auto"

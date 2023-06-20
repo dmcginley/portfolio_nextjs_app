@@ -55,3 +55,18 @@ footer,
     color-scheme: dark;
   }
 }
+
+
+.text-center svg:nth-child(7){
+  /* fill: none; */
+  background-color: aqua;
+}
+
+
+.grid .dev-section:nth-child(8) svg{
+  fill: none;
+}
+
+.grid .dev-section:nth-child(8) path{
+  color:#334155;
+}
