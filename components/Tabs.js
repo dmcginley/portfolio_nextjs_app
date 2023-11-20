@@ -3,6 +3,7 @@ import React from "react";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
 
+
 const Tabs = () => {
   const [openTab, setOpenTab] = React.useState(1);
   return (
